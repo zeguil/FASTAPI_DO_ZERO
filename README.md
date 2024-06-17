@@ -2,11 +2,11 @@
 
 ## Descrição do Projeto
 
-O projeto central deste curso é a construção de um gerenciador de tarefas (uma lista de tarefas), começando do zero. Este projeto incluirá a implementação da autenticação do usuário e das operações CRUD completas.
+O projeto central deste curso é a construção de um gerenciador de tarefas (uma lista de tarefas), começando do zero. Este projeto inclui a implementação da autenticação do usuário e das operações CRUD completas.
 
 ## Ferramentas Utilizadas
 
-Para a construção do projeto, serão utilizadas as versões mais recentes das ferramentas disponíveis em 2024:
+Para a construção do projeto, foram utilizadas as versões mais recentes das ferramentas disponíveis em 2024:
 
 - **FastAPI**: versão 0.100
 - **Pydantic**: versão 2.0
@@ -22,7 +22,7 @@ Para a construção do projeto, serão utilizadas as versões mais recentes das 
 
 ## Testes
 
-Além da construção do projeto, o curso incluirá a prática de testes, utilizando o pytest. Essa abordagem planeja garantir que as APIs desenvolvidas sejam não apenas funcionais, mas também robustas e confiáveis.
+A construção do projeto incluirá a prática de testes, utilizando o pytest. Essa abordagem planeja garantir que a API desenvolvida seja não apenas funcional, mas também robusta e confiável.
 
 ## Como Baixar e Executar o Projeto
 
@@ -33,3 +33,31 @@ Certifique-se de ter o **Poetry** instalado. Você pode instalá-lo seguindo as 
 ### Passos para Baixar e Executar
 
 1. **Clone o Repositório**
+
+   ```sh
+   https://github.com/zeguil/FASTAPI_DO_ZERO.git
+
+   cd FASTAPI_DO_ZERO
+   ```
+
+2. **Instale as Dependências**
+
+   No diretório do projeto, execute:
+
+   ```sh
+   poetry install
+   ```
+3. **Ative o Ambiente Virtual do Poetry**
+
+   ```
+   poetry shell
+   ```
+
+4. **Execute o Projeto**
+   ```
+   fastapi dev fast_zero/app.py
+   ```
+
+
+
+
