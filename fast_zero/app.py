@@ -2,6 +2,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/")
+
+@app.get('/')
 def reead_root():
-    return {"msg": "Olar mundo 2"}
+    return {'msg': 'ola mundo'}
