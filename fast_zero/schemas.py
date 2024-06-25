@@ -7,10 +7,19 @@ class UserSchema(BaseModel):
     password: str
 
 
-class Menssage(BaseModel):
+class UserDB(UserSchema):
+    id: int
+
+
+class Message(BaseModel):
     message: str
 
 
 class UserPublic(BaseModel):
+    id: int
     username: str
     email: EmailStr
+
+
+class UserList(BaseModel):
+    users: list[UserPublic]
