@@ -94,7 +94,7 @@ def test_read_user(client):
         '/users/',
         json={
             'username': 'UserTest',
-            'password': 'password',
+            'password': '123',
             'email': 'teste@test.com',
         },
     )
